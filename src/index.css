@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #e2e8f0;
+    background-color: #060409;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Chakra Petch', 'Cinzel', sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Custom glow effects for modern tactical shooter dark volcanic neon aesthetic */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.45), inset 0 0 10px rgba(6, 182, 212, 0.2);
+}
+
+.glow-orange {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.45), inset 0 0 10px rgba(249, 115, 22, 0.2);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.45), inset 0 0 10px rgba(236, 72, 153, 0.2);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.7);
+}
+
+.text-glow-orange {
+  text-shadow: 0 0 12px rgba(249, 115, 22, 0.7);
+}
+
+.text-glow-magenta {
+  text-shadow: 0 0 12px rgba(236, 72, 153, 0.7);
+}
+
+/* Animations */
+@keyframes heart-shatter {
+  0% { transform: scale(1); opacity: 1; filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.8)); }
+  30% { transform: scale(1.35) rotate(-15deg); opacity: 0.9; }
+  60% { transform: scale(0.7) rotate(25deg); opacity: 0.5; }
+  100% { transform: scale(0) rotate(45deg); opacity: 0; }
+}
+
+.animate-shatter {
+  animation: heart-shatter 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulse-vignette {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.85; }
+}
+
+.animate-horror-vignette {
+  animation: pulse-vignette 1.5s ease-in-out infinite;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 10, 25, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.7);
+}

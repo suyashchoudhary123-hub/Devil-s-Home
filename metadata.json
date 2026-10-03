@@ -1,0 +1,6 @@
+{
+  "name": "Devil's Home - 3D Horror Survival Action Game",
+  "description": "An immersive 3D tactical-fantasy survival horror action game featuring rich stylized visuals, terrifying demonic monsters, weapon upgrades, and full authenticated user progression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

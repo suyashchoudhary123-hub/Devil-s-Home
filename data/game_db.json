@@ -1,0 +1,124 @@
+{
+  "users": {
+    "ffa01c19-7596-45cf-95e2-686681d081d0": {
+      "id": "ffa01c19-7596-45cf-95e2-686681d081d0",
+      "username": "TestWarrior_01",
+      "email": "warrior01@abyss.test",
+      "passwordHash": "0e6ac76a03e44184504ccd41e080f2b733d87636733965c56f5b72fb5553493fea60404715a6488cb422d4e9b915bba06be36f4d8fc511f2dbad74f7130ab320",
+      "salt": "9e41aadfb5f10829341e5148c6ac42c0",
+      "createdAt": "2026-10-03T11:08:55.519Z",
+      "coins": 250,
+      "hearts": 3,
+      "maxHearts": 3,
+      "unlockedCharacters": [
+        "hero_t1"
+      ],
+      "selectedCharacter": "hero_t1",
+      "unlockedWeapons": [
+        "runic_blade"
+      ],
+      "selectedWeapon": "runic_blade",
+      "currentLevel": 1,
+      "highScore": 1200,
+      "totalKills": 0,
+      "bossesDefeated": 0
+    },
+    "62b9c7d7-fe4e-493f-8f6b-c8c59a2a5cd0": {
+      "id": "62b9c7d7-fe4e-493f-8f6b-c8c59a2a5cd0",
+      "username": "DevWarrior_99",
+      "email": "warrior99@test.com",
+      "passwordHash": "44f1a843c8683decaf67ab4c12445f5b8bbb495513871a159ebda42835e0285b5f228ff103f679297f62ff729ecde08ea686c5e880a65bed69cee64fbb5c232c",
+      "salt": "43ad6b601c1b5596b517a018b159da96",
+      "createdAt": "2026-10-03T11:09:55.085Z",
+      "coins": 100,
+      "hearts": 3,
+      "maxHearts": 3,
+      "unlockedCharacters": [
+        "hero_t1"
+      ],
+      "selectedCharacter": "hero_t1",
+      "unlockedWeapons": [
+        "runic_blade"
+      ],
+      "selectedWeapon": "runic_blade",
+      "currentLevel": 1,
+      "highScore": 0,
+      "totalKills": 0,
+      "bossesDefeated": 0
+    },
+    "089f62d8-001b-4c42-b5eb-fe7f5aebfce9": {
+      "id": "089f62d8-001b-4c42-b5eb-fe7f5aebfce9",
+      "username": "TestWarrior_01",
+      "email": "warrior01@abyss.test",
+      "passwordHash": "4da8a03e94e9e808bc26e6649927d3527e8ac6c9e396428f1142218bef6690ed77a87d6747d617c244b3a0b034016ea5313c3c8b886b585fad6c03ad982f3490",
+      "salt": "4e8c151e5c6c3d6203fef7524d09a781",
+      "createdAt": "2026-10-03T11:10:10.397Z",
+      "coins": 250,
+      "hearts": 3,
+      "maxHearts": 3,
+      "unlockedCharacters": [
+        "hero_t1"
+      ],
+      "selectedCharacter": "hero_t1",
+      "unlockedWeapons": [
+        "runic_blade"
+      ],
+      "selectedWeapon": "runic_blade",
+      "currentLevel": 1,
+      "highScore": 1200,
+      "totalKills": 0,
+      "bossesDefeated": 0
+    }
+  },
+  "usernameToId": {
+    "testwarrior_01": "089f62d8-001b-4c42-b5eb-fe7f5aebfce9",
+    "devwarrior_99": "62b9c7d7-fe4e-493f-8f6b-c8c59a2a5cd0"
+  },
+  "emailToId": {
+    "warrior01@abyss.test": "089f62d8-001b-4c42-b5eb-fe7f5aebfce9",
+    "warrior99@test.com": "62b9c7d7-fe4e-493f-8f6b-c8c59a2a5cd0"
+  },
+  "leaderboard": [
+    {
+      "username": "Arjun_DemonSlayer",
+      "score": 14850,
+      "level": 3,
+      "kills": 48,
+      "date": "2026-10-01"
+    },
+    {
+      "username": "ShadowHunter99",
+      "score": 11200,
+      "level": 3,
+      "kills": 36,
+      "date": "2026-10-02"
+    },
+    {
+      "username": "VolcanoSurvivor",
+      "score": 8750,
+      "level": 2,
+      "kills": 27,
+      "date": "2026-10-02"
+    },
+    {
+      "username": "RuneKnight_Dev",
+      "score": 6400,
+      "level": 2,
+      "kills": 19,
+      "date": "2026-10-03"
+    },
+    {
+      "username": "AshfallHero",
+      "score": 4200,
+      "level": 1,
+      "kills": 14,
+      "date": "2026-10-03"
+    }
+  ],
+  "refreshTokens": {
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmI5YzdkNy1mZTRlLTQ5M2YtOGY2Yi1jOGM1OWEyYTVjZDAiLCJ1c2VybmFtZSI6IkRldldhcnJpb3JfOTkiLCJpYXQiOjE3OTEwMjU3OTUsImV4cCI6MTc5MTYzMDU5NX0.93XQlYD8vyqS-O62hrL5FHZUiAFPyllFjdnTjm62GYw": {
+      "userId": "62b9c7d7-fe4e-493f-8f6b-c8c59a2a5cd0",
+      "expiresAt": 1791630595089
+    }
+  }
+}
